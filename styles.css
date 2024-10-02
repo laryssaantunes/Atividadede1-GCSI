@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #ff4d4d;
+    margin-bottom: 30px;
+}
+.moranguinho {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #ff4d4d;
+}
+.card-moranguinho {
+    padding: 15px;
+    text-align: center;
+}
+.card-moranguinho p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+}
